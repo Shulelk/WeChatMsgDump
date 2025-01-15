@@ -20,13 +20,13 @@ Usage of WeChatMsgDump.exe:
 
 ### 使用例子
 
-![WindowsTerminal_3mcr3LN0r5](https://chevereto.1i6w31fen9.top/images/2025/01/15/WindowsTerminal_3mcr3LN0r5.webp)
+![WindowsTerminal_3mcr3LN0r5](https://chevereto.1i6w31fen9.top/images/2025/01/15/WindowsTerminal_3mcr3LN0r5.png)
 
-![7zFM_KvJsT6SzQa](https://chevereto.1i6w31fen9.top/images/2025/01/15/7zFM_KvJsT6SzQa.webp)
+![7zFM_KvJsT6SzQa](https://chevereto.1i6w31fen9.top/images/2025/01/15/7zFM_KvJsT6SzQa.png)
 
 可将 db.zip 解压，并使用相关数据库管理工具进行打开分析。例如 Firfox 中的 SQLite Manager 插件。
 
-![firefox_JYt4zDMZX9](https://chevereto.1i6w31fen9.top/images/2025/01/15/firefox_JYt4zDMZX9.webp)
+![firefox_JYt4zDMZX9](https://chevereto.1i6w31fen9.top/images/2025/01/15/firefox_JYt4zDMZX9.png)
 
 ### 数据库相关表信息
 
