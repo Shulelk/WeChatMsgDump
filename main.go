@@ -4,9 +4,19 @@ import (
 	"WeChatMsgDump/util"
 	"flag"
 	"golang.org/x/sys/windows"
+	"io"
 	"log"
+	"os"
 	"unsafe"
 )
+
+func init() {
+	file := "./info.txt"
+	logFile, _ := os.OpenFile(file, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0644)
+	multiWriter := io.MultiWriter(os.Stdout, logFile)
+	log.SetOutput(multiWriter)
+	return
+}
 
 func main() {
 	dumpKey := flag.Bool("dumpKey", false, "only dump key")
