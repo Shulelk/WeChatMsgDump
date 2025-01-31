@@ -44,6 +44,8 @@ MSG*.db 主要保存了聊天记录信息。其中 `IsSender=1` 字段代表为�
 SELECT * from MSG where StrTalker = f'{MicroMsg.Contact.UserName}' ORDER BY CreateTime DESC limit 10
 ```
 
+其它表介绍：https://github.com/LC044/WeChatMsg/blob/master/doc/%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BB%8B%E7%BB%8D.md
+
 ### 参考
 
 https://github.com/LC044/WeChatMsg/

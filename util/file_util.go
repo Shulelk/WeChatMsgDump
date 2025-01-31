@@ -99,6 +99,20 @@ func CopyMsgDb(dataDir string) error {
 				return err
 			}
 		}
+		// 语音消息
+		if ok, _ := filepath.Match("MediaMSG*.db", info.Name()); ok {
+			err = CopyFile(path, CurrentPath+"\\tmp\\"+info.Name())
+			if err != nil {
+				return err
+			}
+		}
+		// 朋友圈数据
+		if ok, _ := filepath.Match("Sns.db", info.Name()); ok {
+			err = CopyFile(path, CurrentPath+"\\tmp\\"+info.Name())
+			if err != nil {
+				return err
+			}
+		}
 		return nil
 	})
 	if err != nil {
